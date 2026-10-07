@@ -1,0 +1,54 @@
+/* ==========================================
+CSS Eksternal: style_eksternal.css
+========================================== */
+
+/* Styling Navigasi */
+nav {
+background: #9f0f79;
+color: #fff;
+padding: 10px;
+}
+
+nav a {
+color: #fff;
+text-decoration: none;
+padding: 10px 20px;
+display: inline-block;
+}
+
+nav .active,
+nav a:hover {
+background: #0B6B3A;
+}
+
+/* ID Selector (#intro) */
+#intro {
+background: #418fb1;
+border: 1px solid #099249;
+min-height: 100px;
+padding: 20px;
+margin: 20px;
+}
+
+#intro h1 {
+text-align: left;
+border: 0;
+color: #fff;
+padding: 0 0 10px 0;
+}
+
+/* Class Selector (.button) */
+.button {
+padding: 12px 20px;
+background: #e11d48;
+color: #fff;
+display: inline-block;
+margin-top: 15px;
+text-decoration: none;
+border-radius: 4px;
+font-weight: bold;
+}
+
+.button:hover {
+background: #be123c;
+}
